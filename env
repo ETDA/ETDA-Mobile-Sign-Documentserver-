@@ -1,0 +1,23 @@
+#DB Info
+DB_HOST=mongodb://User:Password@Host:27017/document_signing?authSource=admin
+
+#Crypto URL
+DigestDoc_URL_XML=http://demo.teda.th/xmlSigner/v1/digestDoc
+AttachedSig_URL_XML=http://demo.teda.th/xmlSigner/v1/attachSignature
+DigestDoc_URL_PDF=http://demo.teda.th/pdfSigner/v1/digestDoc
+AttachedSig_URL_PDF=http://demo.teda.th/pdfSigner/v1/attachSignature
+
+digestMethod=1
+timestampRequired=0
+
+#Callback URL
+hash_url=https://demo.teda.th/api/v2/documents/request_hash
+getsignature_url=https://demo.teda.th/api/v2/documents/getsignature_value
+
+#Signing Server URL
+Signing_Request_URL=https://demo.teda.th/api/v2/signing_sign/request
+Signing_sign_URL=https://demo.teda.th/api/v2/signing_sign
+
+#Credential
+ClientID=<ClientID>
+Secret=<Secret>
